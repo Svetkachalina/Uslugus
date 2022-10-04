@@ -5,7 +5,7 @@
   display: grid;
   grid-template-areas:
     'avatar present price'
-    'contacts contscts review';
+    'contacts contacts review';
   grid-template-columns: 50px 1fr max-content;
   gap: 20px 24px;
 
@@ -37,7 +37,7 @@
   }
 
   &__contacts {
-    grid-column: span 2;
+    grid-area: contacts;
     display: flex;
     flex-direction: column;
     gap: 8px;
